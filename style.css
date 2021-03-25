@@ -91,6 +91,7 @@ li{
 }
 .inp{
     margin-left: 2%;
+    width: 80vh;
     border: none;
     border-bottom: 2px solid rgb(238, 215, 219);
     outline: none;
@@ -125,5 +126,91 @@ li{
 .account{
     width: 60%;
     text-align: center;
+    
 }
+/* <!-- --------------add the humayun page--------- --> */
+.text-3{
+    margin: 5%;
+    font-size: 15px;
+    
+    text-decoration: none;
+    
+}
+.text-3:hover{
+    list-style: initial;
+    border: 1px solid #888;
+}
+li a{
+    text-decoration: none;
+}
+.icon-1{
+    font-size: 20px;
+}
+.reset{
+    text-decoration: none;
+    margin-left: 40%;
+    border: none;
+    outline: none;
+}
+.overflow{
+   
+    color: white;
+    padding: 15px;
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+    /* border: 1px solid #ccc; */
+}
+.background{
+    background: url(assets/author-background.png);
+    background-size: cover;
+}
+.bdr-1{
+    border: 1px solid #fff;
+    padding: 10px;
+     background: #fff;
+}
+.icon-2{
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+}
+.icon-2:hover{
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+}
+.text2{
+    margin-top: 3%;
+}
+.remeber2{
+   margin-left: -10%;
+    width: 18px;
+}
+.filter{
+    background: #fff;
+    color: white;
+    /* padding: 15px; */
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+    border-bottom: 2px solid #000;
+}
+.clear{
+    text-decoration: none;
+    /* margin-left: 40%; */
+    border: none;
+    outline: none;
+}
+.text-5{
+    font-size: 12px;
+}
+.text-6{
+
+    font-size: 15px;
+}
+
+
+
 
