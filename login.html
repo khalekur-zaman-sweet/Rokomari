@@ -23,31 +23,34 @@
   </head>
   <body>
 
-     <!-- search bar----------- -->
+      <!-- search bar----------- -->
        
 
-
-     <div class="container mt-3">
+      <div class="bg fixed-top">
+        <br>
+     <div class="container">
          
-      <div class="row">
-       
-        <div class="col-md-auto">
-          <a class="navbar-brand logo" href="#"><img src="assets/rokomari 3.png" width="100px"></a>
+        <div class="row">
+         
+          <div class="col-md-auto">
+            <a class="navbar-brand logo" href="#"><img src="assets/rokomari 3.png" width="100px"></a>
+          </div>
+          <div class="col">
+            <a class="nav-link d-flex" aria-current="page" href="#">
+              <input id="search" type="search" placeholder="">
+              <button class="btn btn-outline-success"><i class="fas fa-search"></i></button>
+            </a>
+          </div>
+          <div class="col col-lg-2">
+            <li class="nav-item d-flex sign">
+              <a class="nav-link icon"  href="#"><i class="fas fa-shopping-cart"></i></a>
+              <a class="nav-link btn btn-success" href="login.html">Sign In</a>
+            </li>
+          </div>
         </div>
-        <div class="col">
-          <a class="nav-link d-flex" aria-current="page" href="#">
-            <input id="search" type="search" placeholder="">
-            <button class="btn btn-outline-success"><i class="fas fa-search"></i></button>
-          </a>
-        </div>
-        <div class="col col-lg-2">
-          <li class="nav-item d-flex sign">
-            <a class="nav-link icon"  href="#"><i class="fas fa-shopping-cart"></i></a>
-            <a class="nav-link btn btn-success" href="login.html">Sign In</a>
-          </li>
-        </div>
+      </div><br>
       </div>
-    </div>
+      <br><br><br><br>
 
       <!-- ---------navber---------- -->
 
@@ -109,7 +112,8 @@
               
             <div class="hero">
                 <div class="button text-center">
-                <a class="btn text-3" href="#">SIGN IN</a>
+                <a class="text3 active" href="login.html">SIGN IN</a>
+                <a class="text3" href="signup.html">SIGN UP</a>
                 <br><br>
                 <p>Login easily with your facebook or google account
 
@@ -121,17 +125,19 @@
 
                 </div>
                 <center>
+                 
                   <div class="input-group inp">
-                    <span class="input-group-text" id="addon-wrapping">@</span>
-                    <input type="text" class="form-control inp" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
-                  </div><br>
+                    <span class="input-group-text" id="addon-wrapping"><i class="fas fa-user icon-3"></i></span>
+                   <input type="text" class="form-control inp" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                  </div>
+                </abbr><br>
 
 
                     <div class="input-group inp">
-                    <span class="input-group-text" id="addon-wrapping">@</span>
+                    <span class="input-group-text" id="addon-wrapping"><i class="fas fa-lock icon-3"></i></span>
                     <input type="password" class="form-control inp" placeholder="Password" aria-label="Username" aria-describedby="addon-wrapping">
                   </div>
-                </center>
+               </center>
             <br>
 
             <div class="container">

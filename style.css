@@ -6,7 +6,12 @@
 .logo{
     margin-left: 10%;
 }
-
+.bg{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0,0.5);
+}
 input{
     width: 80vh;
     height: 40px;
@@ -60,11 +65,33 @@ li{
 }
 
 /* -----------login------- */
-.text-3{
+.text3{
     font-size: 30px;
-    color: cornflowerblue;
+    color: rgb(85, 166, 216);
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+.active{
+    color: tomato;
     text-decoration: underline;
 }
+/* .text3:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.text4{
+    font-size: 30px;
+    color: tomato;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+.text4:hover{
+    text-decoration: underline;
+} */
 .facebook{
     background-color: #3B5999;
     font-size: 20px;
@@ -93,13 +120,19 @@ li{
     margin-left: 2%;
     width: 80vh;
     border: none;
-    border-bottom: 2px solid rgb(238, 215, 219);
+    border-bottom: 1px solid rgb(238, 215, 219);
     outline: none;
 }
 .inp:hover{
     outline: none;
     border: none;
-    border-bottom: 2px solid blue;
+    border-bottom: 1px solid ;
+}
+.inp .icon-3{
+    border-bottom: 2px solid tomato;
+    background: #fff;
+    border: none;
+
 }
 .remeber{
     margin-left: 20%;
@@ -197,6 +230,10 @@ li a{
     overflow: auto;
     border-bottom: 2px solid #000;
 }
+.remeber3{
+    margin-left: 8%;
+    width: 18px;
+}
 .clear{
     text-decoration: none;
     /* margin-left: 40%; */
@@ -211,6 +248,49 @@ li a{
     font-size: 15px;
 }
 
-
+/* ----------book--------- */
+.img-1{
+    width: 130px;
+    height: 186px;
+}
+.side{
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    border: 2px solid #000;
+}
+    
+.nmb{
+    
+    margin-left: 5.5%;
+    /* margin-right: 2.5%; */
+    border-left: 2px solid #000;
+    text-align: center;
+    text-decoration: none;
+    
+   
+}
+.next{
+    margin-left: 5%;
+    border-left: 2px solid #000;
+    justify-content: center;
+    text-decoration: none;
+}
+    
+    
+.pre{
+    width: 5%;
+    margin-left: 2%;
+    text-decoration: none;
+    margin-right: 2%;
+}
+.remeber4{
+    margin-left: 8%;
+    width: 18px;
+    
+}
+.remeber4 i{
+    color: tomato;
+}
 
 
