@@ -59,7 +59,7 @@ li{
 }
 .font:hover{
     color: coral;
-   background: rgba(158, 152, 152, 0.534);
+   
 }
 .writer2{
     margin-left: 10%;
@@ -294,4 +294,94 @@ li a{
     color: tomato;
 }
 
+/* ----------book------deteelis---- */
+.body{
+    background: #888;
+}
+.bg-3{
+    background: #fff;
+}
+.book{
+    width: 95%;
+    height: auto;
+    border: 1px solid #000;
+}
+.icon-5{
+    font-size: 25px;
+   
+}
+.span{
+    color: lightskyblue;
+}
+.span-2{
+    background: tomato;
+    padding: 0px 5px;
+    border-radius: 5px 0 25px 0;
+}
+.text-7{
+    font-size: 14px;
+    color: teal;
+}
+.botton{
+    color: green;
+    border: 2px solid green;
+    background: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.botton:hover{
+    color: #fff;
+    background: green;
+    border: 2px solid #fff;
+}
+.botton-1{
+    color: #fff;
+   margin-left: 10%;
+    background: tomato;
+    text-decoration: none;
+    padding: 10px;
+}
+.bnt{
+    text-decoration: none;
+    color: black;
+    margin: 5%;
+}
+.bg-4{
+    background: rgb(172, 168, 168);
+}
 
+/* ----------eletronic------ */
+
+.cat-btn{
+    margin-left: 40%;
+}
+.cat{
+    margin-left: 5%;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+    padding: 5px;
+}
+.active-1{
+    border-top: 2px solid green;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.Categorie{
+    text-decoration: none;
+    text-align: center;
+    
+    width: 100%;
+    color: #444546;
+    padding: 8px 0;
+    font-size: 13px;
+    margin: 0;
+    background: rgb(173, 166, 166);
+}
+
+.power{
+    width: 90%;
+    height: 200px;
+    border: 2px solid red;
+}
